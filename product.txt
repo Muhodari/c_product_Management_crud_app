@@ -1,0 +1,4 @@
+23 MUCERI 6000 32
+2030 mandazi 45 345
+3456 capa 12 455
+1 amata 500 34
