@@ -9,7 +9,6 @@ using namespace std;
 
 
 void createProduct(){
-
     ofstream productFile;
     productFile.open("product.txt", ios::app);
     int productID;
@@ -65,9 +64,10 @@ int DeleteProductById(){
 void readFromFile(){
     ifstream productFile;
     productFile.open("product.txt");
-    string line;
-    while(getline(productFile, line)){
-        cout << line << endl;
+    string line,ProductName;
+    int ProdctId,productPrice,ProductQunatity;
+    while(getline(productFile >> ProdctId >>ProductName >> productPrice>> ProductQunatity, line)){
+        cout << ProdctId <<" "<<ProductName <<" "<<productPrice<<" "<<ProductQunatity << endl;
     }
     productFile.close();
 
