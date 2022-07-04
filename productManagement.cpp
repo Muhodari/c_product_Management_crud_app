@@ -1,7 +1,11 @@
 #include<iostream>
 #include<fstream>
+#include<ctime>
+#include<stdlib.h>
+
 
 using namespace std;
+
 
 
 void createProduct(){
@@ -160,6 +164,8 @@ do{
   cout<<"\t****************************\n";
   cout<<"\n\n\n\n";
 
+
+// cout<<1+rand()%(999999)<<" : Random Number "<<endl;
 cout<<"\tEnter your choice: ";
 cin>>choice;
 
